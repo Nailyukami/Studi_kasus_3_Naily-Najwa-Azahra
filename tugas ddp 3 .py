@@ -31,9 +31,8 @@ while True:
                 lulus.remove(hapus)
             if hapus in remedi:
                 remedi.remove(hapus)
-            print("Nilai", hapus, "sudah dihapus")
-        else:
-            print("Nilai tidak ada di data")
+            print("sudah dihapus")
+        
 
     else:
         nilai = float(masukan)
